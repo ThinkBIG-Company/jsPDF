@@ -1,13 +1,9 @@
 /** @license
- *
  * jsPDF - PDF Document creation from JavaScript
- * Version ${data.versionID} Built on ${data.builtOn}
- *                      CommitID ${data.commitID}
+ * Version ${versionID} Built on ${builtOn}
+ *                      CommitID ${commitID}
  *
- * Copyright (c) 2010-2020 James Hall <james@parall.ax>, https://github.com/MrRio/jsPDF
- *               2015-2020 yWorks GmbH, http://www.yworks.com
- *               2015-2020 Lukas Holländer <lukas.hollaender@yworks.com>, https://github.com/HackbrettXXX
- *               2016-2018 Aras Abbasi <aras.abbasi@gmail.com>
+ * Copyright (c) 2010-2016 James Hall <james@parall.ax>, https://github.com/MrRio/jsPDF
  *               2010 Aaron Spike, https://github.com/acspike
  *               2012 Willow Systems Corporation, willow-systems.com
  *               2012 Pablo Hess, https://github.com/pablohess

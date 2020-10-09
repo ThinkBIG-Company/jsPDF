@@ -15,14 +15,13 @@
 
 <title>Outline Test</title>
 
-<script src='../../dist/jspdf.debug.js'></script>
-<script src='../js/test_harness.js'></script>
+<script src='../../libs/require/require.js'></script>
 
-
-</head>
-
-<body style='background-color: silver; margin: 0;'>
 <script>
+    require_baseUrl_override = '../..';
+    require(['../../libs/require/config'], function(){
+      require(['plugins/outline', 'examples/js/test_harness'], function(){
+
       var pdf = new jsPDF('p', 'pt', 'letter');
       pdf.text(20, 20, 'Hello');
       pdf.addPage();
@@ -43,8 +42,13 @@
 
       pdf_test_harness_init(pdf, "Open in Reader (or Firefox) to see the PDF outline");
 
+      }); // require
+    }); // require
 
 </script>
 
+</head>
+
+<body style='background-color: silver; margin: 0;'>
 </body>
 </html>
